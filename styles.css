@@ -23,3 +23,9 @@ body {
 .menu {
     display: inline-block;
 }
+
+.bandCampSection {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
