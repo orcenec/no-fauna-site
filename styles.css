@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: beige;
+}
+
 body {
     background-color: black;
 }
@@ -27,5 +35,9 @@ body {
 .bandCampSection {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+}
+
+.textSection {
+    display: flex;
+    flex-flow: column;
 }
