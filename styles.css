@@ -4,10 +4,13 @@
 
 h1 {
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 body {
@@ -32,12 +35,22 @@ body {
     display: inline-block;
 }
 
+.content {
+    display: flex;
+
+}
+
 .bandCampSection {
     display: flex;
     flex-flow: column;
+    width: 50%;
+    margin: 10px;
+    justify-content: space-between;
 }
 
 .textSection {
     display: flex;
     flex-flow: column;
+    width: 50%;
+    margin: 10px;
 }
