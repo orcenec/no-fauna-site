@@ -37,13 +37,15 @@ body {
 
 .content {
     display: flex;
-
+    flex-flow: row wrap-reverse;
+    justify-content: space-around;    
 }
 
 .bandCampSection {
     display: flex;
     flex-flow: column;
-    width: 50%;
+    width: 47%;
+    min-width: 300px;
     margin: 10px;
     justify-content: space-between;
 }
@@ -51,6 +53,7 @@ body {
 .textSection {
     display: flex;
     flex-flow: column;
-    width: 50%;
+    width: 47%;
+    min-width: 300px;
     margin: 10px;
 }
